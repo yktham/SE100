@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+  column-gap: 12px;
+}
+
+/* Remove default <p> spacing */
+.container p {
+  margin: 0;
+}
+
+/* Orange dropdown styling */
+.currency-select {
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 2px solid orange;
+  background-color: orange;   /* same as border */
+  color: white;               /* text readable on orange */
+  cursor: pointer;
+}
+
+/* Hover & focus for better UX */
+.currency-select:hover,
+.currency-select:focus {
+  outline: none;
+  border-color: darkorange;
+  background-color: darkorange;
+  color: darkorange;
+}

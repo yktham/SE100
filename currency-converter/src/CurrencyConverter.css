@@ -1,0 +1,80 @@
+.cc-container {
+  width: min(700px, 92vw);
+}
+
+.cc-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cc-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.cc-label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14px;
+  min-width: 220px;
+}
+
+.cc-input {
+  padding: 10px 12px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.cc-select {
+  padding: 10px 12px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 2px solid orange;
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+}
+
+.cc-swap {
+  height: 42px;
+  padding: 0 12px;
+  border-radius: 8px;
+  border: 2px solid orange;
+  background: white;
+  cursor: pointer;
+}
+
+.cc-button {
+  padding: 10px 14px;
+  font-size: 14px;
+  border-radius: 10px;
+  border: 2px solid orange;
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+}
+
+.cc-muted {
+  margin: 0;
+  font-size: 13px;
+  opacity: 0.75;
+}
+
+.cc-error {
+  margin: 0;
+  color: crimson;
+}
+
+.cc-result {
+  padding: 0;
+  margin-top: 6px;
+}
+
+.cc-result-main {
+  font-size: 16px;
+}
